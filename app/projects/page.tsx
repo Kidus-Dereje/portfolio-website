@@ -37,6 +37,16 @@ const projects = [
     imageUrl: "images/linkedin_automation_img.png",
     imageAlt: "Dashboard interface for an automation workflow",
   },
+  {
+    title: "Marketing Performance A/B Data Analysis",
+    description:
+      "This is a data analysis project done on a dataset of a year round monthly campaign runs of multiple channels (facebook and adwords) for a trading business. The goal of the project is to identify the most effective channels and strategies for marketing, and to provide actionable insights to improve marketing performance.",
+    tech: ["Python","Pandas","NumPy","Microsoft Excel","Data Analysis","Data Visualization", "Data Modelling", "Statistical Analysis", "Power BI", "SQL"],
+    liveUrl: "https://app.powerbi.com/view?r=eyJrIjoiODE4OTliMDUtN2VmYi00ZGQ2LTgxMjYtYzc2NTRmZDU0ZDA0IiwidCI6ImZjZTU2MjU4LTlmZWMtNGQxYi05YjI5LTk3ZmYwYzI0Mjk1ZCJ9",
+    githubUrl: "https://github.com/Kidus-Dereje/marketing_performance_data_analysis.git",
+    imageUrl: "images/dashboard_img.png",
+    imageAlt: "Dashboard interface for marketing performance analysis",
+  },
 ]
 
 export default function ProjectsPage() {
