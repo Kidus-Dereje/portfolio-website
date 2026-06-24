@@ -1,0 +1,18 @@
+import type { NextConfig } from "next"
+
+const nextConfig: NextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "picsum.photos",
+      },
+    ],
+    unoptimized: true,
+  },
+}
+
+export default nextConfig
