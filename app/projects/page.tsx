@@ -32,7 +32,7 @@ const projects = [
     description:
       "The LinkedIn Daily Post Manager is an intelligent workflow automation that helps you maintain a consistent LinkedIn presence by curating, filtering, and creating any content of preference from news articles. This n8n workflow automatically finds relevant news based on your interests, lets you select the best article, generates LinkedIn-optimized posts, and publishes them—all with minimal manual intervention.",
     tech: ["Javascript", "Python", "Google Sheets API", "News Search API", "n8n", "Linkedin API", "Groq API", "Gmail API"],
-    liveUrl: "#",
+    liveUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7475814184656658432/",
     githubUrl: "https://github.com/Kidus-Dereje/linkedin_daily_post_automation.git",
     imageUrl: "images/linkedin_automation_img.png",
     imageAlt: "Dashboard interface for an automation workflow",
