@@ -47,6 +47,15 @@ const projects = [
     imageUrl: "images/dashboard_img.png",
     imageAlt: "Dashboard interface for marketing performance analysis",
   },
+  {
+    title: "Automated Daily Business Lesson Workflow",
+    description: "The Daily Business Lessons workflow leverages AI to curate the most insightful business explanations from the sheet provided and transforms them into engaging, shareable posts, and automatically publishes them to Telegram—daily, consistently, and effortlessly.",
+    tech: ["n8n", "Javascript", "Groq API", "Google Sheets API", "Telegram API"],
+    liveUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7477366571183816704/",
+    githubUrl: "https://github.com/Kidus-Dereje/business_lesson_automation.git",
+    imageUrl: "images/business_automation_img.png",
+    imageAlt: "Dashboard interface for an automation workflow",
+  },
 ]
 
 export default function ProjectsPage() {
